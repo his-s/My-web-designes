@@ -2,10 +2,37 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
-
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
+}
+
+.parent {
+    background-color: blue;
+}
+
+.container {
+    padding: 0 16px;
+    margin: 0 auto;
+    background-color: #AAA;
+
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
 }
