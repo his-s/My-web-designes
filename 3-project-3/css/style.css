@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellow;
+
+}
+
+.form {
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    border: solid 4px green;
+
+}
+
+.input::placeholder {
+    color: gainsboro;
+
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    background-color: green;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.btn:hover {
+    filter: brightness(.9);
+}
