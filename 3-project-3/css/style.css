@@ -55,3 +55,8 @@ body {
 .btn:hover {
     filter: brightness(.9);
 }
+
+.score {
+    color: green;
+    text-align: end;
+}
