@@ -6,7 +6,7 @@ Now I'm trying to learn web design with web technologies this is my repository f
 
 # Projects
 1- Project-1 not completed  </br>
-2- Project-2 not completed  </br>
-3- Project-3 is **Digital Clock** app used **CSS** **HTML** **JS** </br> </br>
-![image](https://user-images.githubusercontent.com/70527079/187364020-e10580c0-f9f8-4033-aaac-86c7308ff07b.png) </br> 
-4- Project-4 not completed </br>
+2- Project-2 is **Digital Clock** app used **CSS** **HTML** **JS** </br> </br>
+![image](https://user-images.githubusercontent.com/70527079/187364020-e10580c0-f9f8-4033-aaac-86c7308ff07b.png) </br> </br>
+3- Project-3 is **Mutliplication App** written by **CSS** **HTML** **JS** </br> </br>
+![image](https://user-images.githubusercontent.com/70527079/187591474-021aa195-0ee3-4314-b377-b71f318aa78a.png) <br/> </br>
