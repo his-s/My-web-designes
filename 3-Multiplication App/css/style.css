@@ -29,13 +29,15 @@ body {
     text-align: center;
     font-family: cursive;
     border: solid 4px green;
-
+    outline: none;
 }
 
 .input::placeholder {
     color: gainsboro;
 
 }
+
+
 
 .btn {
     display: block;
