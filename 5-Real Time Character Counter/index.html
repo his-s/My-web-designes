@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <form action="" class="form" id="from">
-      <h1>Real-time Character Counter</h1>
-      <input
+    <div class="container" id="from">
+      <h2>Real-time Character Counter</h2>
+      <textarea
         type="text"
-        class="input"
-        id="input"
+        class="textarea"
+        id="textarea"
         placeholder="Please write your text here..."
-      />
-      <div class="footer">
-        <span> Total Character: <span class="total" id="total">21</span> </span>
-        <span> Remaining: <span class="remain" id="remain">29</span></span>
+        maxlength="50"
+      ></textarea>
+      <div class="counter-container">
+        <p>Total Character: <span class="total" id="total">21</span></p>
+        <p>Remaining: <span class="remain" id="remain">29</span></p>
       </div>
-    </form>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
