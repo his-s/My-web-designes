@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 79, 60);
+    font-family: cursive;
+}
+
+.form {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input {
+    height: 80px;
+    text-align: start;
+    font-family: cursive;
+    font-size: 18px;
+
+}
+
+
+.footer {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.footer span {
+    color: grey;
+}
+
+.footer span .total {
+    color: indigo;
+}
+
+.footer span .remain {
+    color: red;
+
+}

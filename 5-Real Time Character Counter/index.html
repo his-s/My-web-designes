@@ -5,6 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real-time Character Counter</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <form action="" class="form" id="from">
+      <h1>Real-time Character Counter</h1>
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Please write your text here..."
+      />
+      <div class="footer">
+        <span> Total Character: <span class="total" id="total">21</span> </span>
+        <span> Remaining: <span class="remain" id="remain">29</span></span>
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
 </html>
