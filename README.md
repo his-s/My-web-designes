@@ -16,3 +16,5 @@ Now I'm trying to learn web design with web technologies this is my repository f
 
 5- Project-5 is **Real-time Character Counter** written by **CSS** **HTML** **JS** </br> </br> 
 ![image](https://user-images.githubusercontent.com/70527079/187898404-7e1b0ce1-0a33-4208-b79e-740cd522f305.png)</br> </br> 
+6- Project-6 is **Sticky  Navbar** written by **CSS** **HTML** **JS** </br> </br>
+![screencapture-127-0-0-1-5500-2022-09-02-02_37_22](https://user-images.githubusercontent.com/70527079/188034830-c0b65cf5-6107-4377-b2cc-54efb5dc89f8.png)</br> </br>
