@@ -18,3 +18,5 @@ Now I'm trying to learn web design with web technologies this is my repository f
 ![image](https://user-images.githubusercontent.com/70527079/187898404-7e1b0ce1-0a33-4208-b79e-740cd522f305.png)</br> </br> 
 6- Project-6 is **Sticky  Navbar** written by **CSS** **HTML** **JS** </br> </br>
 ![screencapture-127-0-0-1-5500-2022-09-02-02_37_22](https://user-images.githubusercontent.com/70527079/188034830-c0b65cf5-6107-4377-b2cc-54efb5dc89f8.png)</br> </br>
+7- Project-7 is **Random Color Generator** written by **CSS** **HTML** **JS** </br> </br>
+![image](https://user-images.githubusercontent.com/70527079/188261402-ed4ef54f-9cc7-4b07-9c5a-f7efdfdd0603.png)  </br> </br>
