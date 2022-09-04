@@ -24,5 +24,15 @@ Now I'm trying to learn web design with web technologies this is my repository f
 ![image](https://user-images.githubusercontent.com/70527079/188266916-519c56dc-5d13-4166-b072-52f96366516d.png)
 9- Project-9 is Video Trailer Popup  (CSS,HTML,JS) </br>
 
+
+
 https://user-images.githubusercontent.com/70527079/188298689-7a34d1c6-624e-4bfe-9f17-0f457660dbc7.mp4
+
+
+</br> 
+10- Project-10 is Blurred Background Popup (CSS,HTML,JS) </br>
+
+
+
+https://user-images.githubusercontent.com/70527079/188302140-abf27a41-2cdb-4337-850b-3bebdcd707ba.mp4
 
