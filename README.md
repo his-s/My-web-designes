@@ -36,3 +36,17 @@ https://user-images.githubusercontent.com/70527079/188298689-7a34d1c6-624e-4bfe-
 
 https://user-images.githubusercontent.com/70527079/188302140-abf27a41-2cdb-4337-850b-3bebdcd707ba.mp4
 
+
+
+</br>
+
+11- Project-11 is Backround Scroll Effect (CSS,HTML,JS) </br>
+
+
+
+
+
+Uploading 2022-09-04 14-38-25.mp4…
+
+
+
