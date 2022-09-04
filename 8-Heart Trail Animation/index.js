@@ -11,5 +11,5 @@ bodyEL.addEventListener("mousemove", (event) => {
     bodyEL.appendChild(spanEl);
     setTimeout(() => {
         spanEl.remove();
-    }, 1000);
+    }, 5000);
 });
