@@ -15,7 +15,7 @@ createImg(imgsCount);
 loadMoreBtn.addEventListener("click", () => {
 
     imgsCount += 10;
-    console.log(imgsCount);
+
     createImg(imgsCount);
 
 
