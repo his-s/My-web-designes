@@ -1,0 +1,78 @@
+.grid-view .quick-draft-widget {
+
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+.quick-draft-widget .left {
+    margin-bottom: 10px;
+}
+
+.quick-draft-widget input {
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    outline: none;
+
+}
+
+.quick-draft-widget input:focus {
+    border: 2px solid #c6c2c2;
+}
+
+.quick-draft-widget textarea {
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    height: 100%;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+
+.quick-draft-widget textarea:focus {
+    border: 2px solid #c6c2c2;
+}
+
+.quick-draft-widget textarea::placeholder {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.quick-draft-widget .btn-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.quick-draft-widget .save-btn {
+    padding: 5px 12px;
+    max-width: fit-content;
+    right: 10px;
+    margin: 8px;
+
+    border-radius: 5px;
+    background-color: #007bfe;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.quick-draft-widget .save-btn:hover {
+    background-color: indigo;
+}
+
+/* sorry for this mistake 

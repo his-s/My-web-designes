@@ -1,0 +1,69 @@
+@import "./sitebtn.css";
+@import "./welcome_widget.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container .side-bar {
+    width: 20%;
+    height: 100vh;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, .3);
+}
+
+.container .view-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+
+
+}
+
+
+
+.container .view-container .bottom {
+    width: 100%;
+    padding: 20px;
+    background-color: #f1f4f9;
+    height: 100%;
+}
+
+
+.container .view-container .bottom h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.container .bottom .line {
+    margin-top: 5px;
+    width: 60px;
+    height: 2px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.container .bottom .grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-row-gap: 10px;
+}

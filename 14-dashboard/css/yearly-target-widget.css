@@ -1,0 +1,60 @@
+.grid-view .yearly-target-widget {
+    padding: 15px;
+
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.grid-view .yearly-target-widget .target-cell {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 5px;
+
+
+}
+
+.yearly-target-widget .target-cell .icon {
+    width: 70px;
+    height: 70px;
+    background-color: lightblue;
+
+}
+
+.target-cell .cell {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    width: 90%;
+
+}
+
+.target-cell .cell h5 {
+    color: #a09d9d;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.target-cell .cell h3 {
+    font-size: 15px;
+
+}
+
+.target-cell .cell .progress-bar {
+    background-color: lightblue;
+    height: 3px;
+    width: 100%;
+}
+
+.target-cell .cell .progress-bar::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    background-color: indigo;
+}

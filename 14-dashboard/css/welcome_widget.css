@@ -1,0 +1,97 @@
+.container .bottom .grid-view .welcome-widget {
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+}
+
+.grid-view .welcome-widget .top {
+    height: 150px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.welcome-widget .top img {
+    right: 0;
+    top: -40px;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+
+.left h4 {
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.welcome-widget .bottom {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+
+}
+
+.welcome-widget .bottom .profile-pic2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(248, 246, 246);
+    top: -15%;
+
+
+}
+
+.welcome-widget .bottom .profile-pic2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.welcome-widget .bottom .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: 1px solid rgb(235, 233, 233);
+    border-bottom: 1px solid rgb(235, 233, 233);
+    padding: 10px 20px;
+    margin: 20px;
+
+
+}
+
+.welcome-widget .bottom .info .cell {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome-widget .bottom .info .cell h4 {
+    font-size: 13px;
+}
+
+.welcome-widget .bottom .info .cell h5 {
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+    font-weight: 600;
+    margin-top: 5px;
+}
