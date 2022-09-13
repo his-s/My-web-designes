@@ -1,213 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elzero Dashboard</title>
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/welcome_widget.css" />
-    <link rel="stylesheet" href="./css/sitebtn.css" />
-    <link rel="stylesheet" href="./css/quick-draft-widget.css" />
-    <link rel="stylesheet" href="./css/yearly-target-widget.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="side-bar">Hi</div>
-      <div class="view-container">
-        <nav class="nav-bar">
-          <input type="text" placeholder="🔍 Search Keyword" />
-          <div class="nav-action">
-            <div class="notification-icon"></div>
-            <img src="./images/man.png" alt="" class="profile-pic" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elzero Dashboard</title>
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/welcome_widget.css" />
+  <link rel="stylesheet" href="./css/sitebtn.css" />
+  <link rel="stylesheet" href="./css/quick-draft-widget.css" />
+  <link rel="stylesheet" href="./css/yearly-target-widget.css" />
+  <link rel="stylesheet" href="./css/tickets-statistics-widget.css" />
+  <link rel="stylesheet" href="./css/latest-news-widget.css" />
+  <link rel="stylesheet" href="./css/latest-tasks-widget.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link href="https://css.gg/add-r.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="side-bar">Hi</div>
+    <div class="view-container">
+      <nav class="nav-bar">
+        <input type="text" class="font-awesome" placeholder="&#xf002 Search Keyword" />
+        <div class="nav-action">
+          <div class="notification-icon">
+            <i class="fa-regular fa-bell"></i>
           </div>
-        </nav>
-        <div class="bottom">
-          <h1>
-            Dashboard
-            <div class="line"></div>
-          </h1>
-          <div class="grid-view">
-            <div class="welcome-widget">
-              <div class="top">
-                <div class="left">
-                  <h2>Welcome</h2>
-                  <h4>Elzero</h4>
-                </div>
-                <img src="./images/illustration.png" alt="" srcset="" />
-              </div>
-              <div class="bottom" style="background-color: white">
-                <div class="profile-pic2">
-                  <img src="./images/man.png" alt="" />
-                </div>
-                <div class="info">
-                  <div class="cell">
-                    <h4>Osama Elzero</h4>
-                    <h5>Developer</h5>
-                  </div>
-                  <div class="cell">
-                    <h4>80</h4>
-                    <h5>Projects</h5>
-                  </div>
-                  <div class="cell">
-                    <h4>$5800</h4>
-                    <h5>Earned</h5>
-                  </div>
-                </div>
-                <button class="site-btn">Profile</button>
-              </div>
-            </div>
-            <div class="quick-draft-widget">
+          <img src="./images/man.png" alt="" class="profile-pic" />
+        </div>
+      </nav>
+      <div class="bottom">
+        <h1>
+          Dashboard
+          <div class="line"></div>
+        </h1>
+        <div class="grid-view">
+          <div class="welcome-widget">
+
+            <div class="top">
               <div class="left">
-                <h2>Quick Draft</h2>
-                <h4>Write A Draft For Your Idea</h4>
+                <h2>Welcome</h2>
+                <h4>Elzero</h4>
               </div>
-              <input type="text" class="title" placeholder="Title" />
-              <textarea
-                name=""
-                id=""
-                class="draft"
-                placeholder="Your Thought"
-              ></textarea>
+              <img src="./images/illustration.png" alt="" srcset="" class="illustration" />
+            </div>
+            <div class="bttom">
+              <img src="./images/man.png" alt="" srcset="" class="profile" />
+              <div class="info">
+                <div class="cell">
+                  <h4>Osama Elzero</h4>
+                  <h5>Developer</h5>
+                </div>
+                <div class="cell">
+                  <h4>80</h4>
+                  <h5>Projects</h5>
+                </div>
+                <div class="cell">
+                  <h4>$5800</h4>
+                  <h5>Earned</h5>
+                </div>
+              </div>
               <div class="btn-container">
-                <button class="save-btn">Save</button>
+                <button class="profile-btn">Profile</button>
               </div>
             </div>
-            <div class="yearly-target-widget">
-              <div class="left">
-                <h2>Yearly Target</h2>
-                <h4>Targets Of The Year With Progress</h4>
+
+          </div>
+          <div class="quick-draft-widget">
+            <div class="left">
+              <h2>Quick Draft</h2>
+              <h4>Write A Draft For Your Idea</h4>
+            </div>
+            <input type="text" class="title" placeholder="Title" />
+            <textarea name="" id="" class="draft" placeholder="Your Thought"></textarea>
+            <div class="btn-container">
+              <button class="save-btn">Save</button>
+            </div>
+          </div>
+          <div class="yearly-target-widget">
+            <div class="left">
+              <h2>Yearly Target</h2>
+              <h4>Targets Of The Year With Progress</h4>
+            </div>
+            <div class="target-cell">
+              <div class="icon">
+                <i class="fa-solid fa-dollar-sign"></i>
               </div>
-              <div class="target-cell">
-                <div class="icon">
-                  <img src="" alt="" srcset="" />
-                </div>
-                <div class="cell">
-                  <h5>Money</h5>
-                  <h3>$20.000</h3>
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-              <div class="target-cell">
-                <div class="icon">
-                  <img src="" alt="" srcset="" />
-                </div>
-                <div class="cell">
-                  <h5>Money</h5>
-                  <h3>$20.000</h3>
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-              <div class="target-cell">
-                <div class="icon">
-                  <img src="" alt="" srcset="" />
-                </div>
-                <div class="cell">
-                  <h5>Money</h5>
-                  <h3>$20.000</h3>
-                  <div class="progress-bar"></div>
-                </div>
+              <div class="cell">
+                <h5>Money</h5>
+                <h3>$20.000</h3>
+                <div class="progress-bar"></div>
               </div>
             </div>
-            <div class="tickets-statistics-widget">
-              <div class="left">
-                <h2>Tickets Statistics</h2>
-                <h4>Everything About Support Tickets</h4>
+            <div class="target-cell">
+              <div class="icon">
+                <i class="fa-solid fa-dollar-sign"></i>
               </div>
+              <div class="cell">
+                <h5>Money</h5>
+                <h3>$20.000</h3>
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="target-cell">
+              <div class="icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="cell">
+                <h5>Money</h5>
+                <h3>$20.000</h3>
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+            <div class="target-cell">
+              <div class="icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="cell">
+                <h5>Money</h5>
+                <h3>$20.000</h3>
+                <div class="progress-bar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="tickets-statistics-widget">
+            <div class="left">
+              <h2>Tickets Statistics</h2>
+              <h4>Everything About Support Tickets</h4>
+            </div>
+            <div class="cells">
               <div class="ticket-cell">
                 <div class="ticket-icon">
-                  <img src="" alt="" class="icon" />
+                  <i class="fa-regular fa-rectangle-list icon fa-2x"></i>
                 </div>
-                <h3>3500</h3>
+                <h3>2500</h3>
                 <h6>Total</h6>
               </div>
               <div class="ticket-cell">
                 <div class="ticket-icon">
-                  <img src="" alt="" class="icon" />
+                  <i class="fa-solid fa-spinner fa-2x"></i>
                 </div>
                 <h3>500</h3>
                 <h6>Pending</h6>
               </div>
               <div class="ticket-cell">
                 <div class="ticket-icon">
-                  <img src="" alt="" class="icon" />
+                  <i class="fa-regular fa-circle-check fa-2x"></i>
                 </div>
                 <h3>1900</h3>
                 <h6>Success</h6>
               </div>
               <div class="ticket-cell">
                 <div class="ticket-icon">
-                  <img src="" alt="" class="icon" />
+                  <i class="fa-regular fa-rectangle-xmark fa-2x"></i>
                 </div>
                 <h3>100</h3>
                 <h6>Failed</h6>
               </div>
             </div>
-            <div class="latest-news-widget">
-              <div class="left">
-                <h2>Latest News</h2>
-                <h4>Everything About Upcoming News</h4>
-              </div>
-              <div class="news-cell">
-                <img src="" alt="" srcset="" />
-                <div class="middle">
-                  <h3>Created SASS Section</h3>
-                  <h6>New SASS Examples & Tutorials</h6>
-                </div>
-                <div class="time">3 Days Ago</div>
-              </div>
-              <div class="news-cell">
-                <img src="" alt="" srcset="" />
-                <div class="middle">
-                  <h3>Created SASS Section</h3>
-                  <h6>New SASS Examples & Tutorials</h6>
-                </div>
-                <div class="time">3 Days Ago</div>
-              </div>
-              <div class="news-cell">
-                <img src="" alt="" srcset="" />
-                <div class="middle">
-                  <h3>Created SASS Section</h3>
-                  <h6>New SASS Examples & Tutorials</h6>
-                </div>
-                <div class="time">3 Days Ago</div>
-              </div>
+          </div>
+          <div class="latest-news-widget">
+            <div class="left">
+              <h2>Latest News</h2>
+              <h4>Everything About Upcoming News</h4>
             </div>
-            <div class="latest-tasks-widget">
-              <div class="left">
-                <h2>Latest Tasks</h2>
-                <h4>Everything About Upcoming Tasks</h4>
-              </div>
-              <div class="task-cell">
-                <div class="forward">
-                  <h3>Record One New Video</h3>
-                  <h6>Record Python Create Exe Project</h6>
+            <div class="news-cell">
+              <div class="forward">
+                <img
+                  src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=658&q=80"
+                  alt="" srcset="" />
+                <div class="middle">
+                  <h3>Created SASS Section</h3>
+                  <h6>New SASS Examples & Tutorials</h6>
                 </div>
               </div>
-              <div class="task-cell">
-                <div class="forward">
-                  <h3>Record One New Video</h3>
-                  <h6>Record Python Create Exe Project</h6>
-                </div>
+              <div class="time">3 Days Ago</div>
+            </div>
+          </div>
+          <div class="latest-tasks-widget">
+            <div class="left">
+              <h2>Latest Tasks</h2>
+              <h4>Everything About Upcoming Tasks</h4>
+            </div>
+            <div class="task-cell">
+              <div class="forward">
+                <h3>Record One New Video</h3>
+                <h6>Record Python Create Exe Project</h6>
               </div>
-              <div class="task-cell">
-                <div class="forward">
-                  <h3>Record One New Video</h3>
-                  <h6>Record Python Create Exe Project</h6>
-                </div>
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="task-cell">
+              <div class="forward">
+                <h3>Record One New Video</h3>
+                <h6>Record Python Create Exe Project</h6>
               </div>
-              <div class="task-cell">
-                <div class="forward">
-                  <h3>Record One New Video</h3>
-                  <h6>Record Python Create Exe Project</h6>
-                </div>
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="task-cell">
+              <div class="forward">
+                <h3>Record One New Video</h3>
+                <h6>Record Python Create Exe Project</h6>
               </div>
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="task-cell">
+              <div class="forward">
+                <h3>Record One New Video</h3>
+                <h6>Record Python Create Exe Project</h6>
+              </div>
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="task-cell">
+              <div class="forward">
+                <h3>Record One New Video</h3>
+                <h6>Record Python Create Exe Project</h6>
+              </div>
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="task-cell">
+              <div class="forward">
+                <h3>Record One New Video</h3>
+                <h6>Record Python Create Exe Project</h6>
+              </div>
+              <i class="fa-solid fa-trash-can"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="./index.js"></script>
-  </body>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
 </html>

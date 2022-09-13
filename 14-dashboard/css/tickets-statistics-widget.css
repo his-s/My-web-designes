@@ -1,0 +1,70 @@
+@import url('https://css.gg/check-o.css');
+@import url('https://css.gg/close-r.css');
+
+.tickets-statistics-widget::-webkit-scrollbar {
+    display: none;
+}
+
+.tickets-statistics-widget {
+    padding: 15px;
+    min-width: 400px;
+    max-height: 350px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.tickets-statistics-widget .cells {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    height: 75%;
+    width: 100%;
+
+}
+
+.tickets-statistics-widget .cells .ticket-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 48%;
+    min-height: 45%;
+    border-radius: 10px;
+    border: 2px solid rgb(218, 218, 218);
+
+}
+
+
+
+.tickets-statistics-widget .cells .ticket-cell h3 {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.ticket-cell h6 {
+    color: gray;
+    font-size: 15px;
+}
+
+.ticket-icon .fa-spinner {
+    color: blue;
+}
+
+.ticket-icon .fa-rectangle-list {
+    color: goldenrod;
+}
+
+.ticket-icon .fa-circle-check {
+    color: lightgreen;
+}
+
+.ticket-icon .fa-rectangle-xmark {
+    color: red;
+}

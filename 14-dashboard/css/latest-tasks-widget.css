@@ -1,0 +1,41 @@
+.latest-tasks-widget::-webkit-scrollbar {
+    display: none;
+}
+
+.latest-tasks-widget {
+    padding: 15px;
+    margin: 10px;
+    min-width: 400px;
+    max-height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.latest-tasks-widget .left {
+    margin-bottom: 10px;
+}
+
+.latest-tasks-widget .task-cell {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 2px solid rgb(228, 227, 227);
+    padding: 10px 0;
+}
+
+.latest-tasks-widget .forward h3 {
+    font-size: 15px;
+}
+
+.latest-tasks-widget .forward h6 {
+    margin-top: 5px;
+    color: #c1c1c1;
+}

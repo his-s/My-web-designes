@@ -6,7 +6,8 @@
     flex-direction: column;
     margin: 10px;
     border-radius: 10px;
-
+    min-width: 400px;
+    min-height: 350px;
 
 
 }
@@ -51,18 +52,17 @@
 
 }
 
-.quick-draft-widget .btn-container {
+.btn-container {
     display: flex;
     align-items: flex-end;
     justify-content: end;
+
 }
 
 .quick-draft-widget .save-btn {
     padding: 5px 12px;
-    max-width: fit-content;
-    right: 10px;
-    margin: 8px;
-
+    width: 60px;
+    margin-top: 15px;
     border-radius: 5px;
     background-color: #007bfe;
     color: white;
